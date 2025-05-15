@@ -1,0 +1,17 @@
+version: "3"
+
+services:
+  weather-app:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - OPENWEATHER_API_KEY=${OPENWEATHER_API_KEY}
+    volumes:
+      - ./app:/app/app
+      - weather-data:/app/app/data
+    restart: unless-stopped
+
+volumes:
+  weather-data:
+    driver: local

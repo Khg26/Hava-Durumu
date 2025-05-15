@@ -1,0 +1,74 @@
+body {
+  background-color: #f5f5f5;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.card {
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.card-header {
+  border-radius: 15px 15px 0 0 !important;
+}
+
+.weather-icon-container {
+  margin: 20px 0;
+}
+
+#weather-icon {
+  width: 100px;
+  height: 100px;
+}
+
+#temperature {
+  font-size: 2.5rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+#weather-description {
+  text-transform: capitalize;
+  color: #666;
+}
+
+.btn-primary {
+  background-color: #5c6bc0;
+  border-color: #5c6bc0;
+}
+
+.btn-primary:hover {
+  background-color: #3f51b5;
+  border-color: #3f51b5;
+}
+
+/* Forecast styles */
+.forecast-card {
+  border-radius: 10px;
+  background-color: #f8f9fa;
+  padding: 10px;
+  margin-bottom: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  text-align: center;
+}
+
+.forecast-day {
+  font-weight: 600;
+  margin-bottom: 8px;
+}
+
+.forecast-icon {
+  width: 50px;
+  height: 50px;
+  margin: 5px auto;
+}
+
+.forecast-temp {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.forecast-min-max {
+  font-size: 0.9rem;
+  color: #666;
+}
